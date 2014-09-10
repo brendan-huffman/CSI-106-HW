@@ -4,4 +4,5 @@ def bin2dec(num):
     digit=num(index)
     if digit=="1":
       result = result + pow(2,len(num)-index-1)
-      
+  print result
+    
